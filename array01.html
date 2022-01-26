@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+
+//  Array    [0]    [1]     [2] 
+var cars = ["Saab","Volvo","BMW"];
+
+cars[1] = undefined;
+
+// Iterar array
+for (let i = 0; i < cars.length; i ++) {
+	document.getElementById("demo").innerHTML += cars[i];
+}
+
+</script>
+
+</body>
+</html>
